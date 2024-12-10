@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageNavbar Snapshot Tests > matches the snapshot 1`] = `
+"<div class="card border-0 mb-3 px-2 font-inter" data-v-e4f7cc59="">
+  <nav class="card-body navbar navbar-expand navbar-light" data-v-e4f7cc59="">
+    <div class="navbar-nav" data-v-e4f7cc59=""><a href="/" class="nav-link position-relative" data-v-e4f7cc59="">Bus Lines</a><a href="/stops" class="nav-link position-relative" data-v-e4f7cc59="">Stops</a></div>
+  </nav>
+</div>"
+`;

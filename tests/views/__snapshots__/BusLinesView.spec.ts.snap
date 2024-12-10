@@ -1,0 +1,121 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BusLines View Snapshot Tests > matches the snapshot when a line and station are selected 1`] = `
+"<section class="bus-lines" data-v-735326f2="">
+  <div class="card border-0 p-2 front-inter bus-lines__selector" data-v-4b1ccc45="" data-v-735326f2="">
+    <div class="card-body" data-v-4b1ccc45="">
+      <p class="card-title mb-1 semibold" data-v-4b1ccc45=""> Select Bus Line </p>
+      <div class="d-flex flex-wrap gap-2 pt-4" data-v-4b1ccc45=""></div>
+    </div>
+  </div>
+  <div class="bus-lines__stations scrollable" data-v-735326f2="">
+    <div class="card border-0 h-100" data-v-683929d4="" data-v-735326f2="">
+      <div class="card-header" data-v-683929d4="">
+        <div class="p-3 px-2" data-v-683929d4="">
+          <!-- Card header -->
+          <div class="title mb-4 semibold" data-v-735326f2=""> Bus Line: Line A</div>
+          <div class="subtitle semibold pt-2" data-v-735326f2=""><span data-v-735326f2="">Bus Stops</span>&nbsp; <span role="button" data-v-735326f2=""><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);" data-v-735326f2=""><path d="M10.6668 8.66665L8.00004 11.3333M8.00004 11.3333L5.33337 8.66665M8.00004 11.3333L8.00004 4.66665M6.6667 14.6666H9.33337C11.2002 14.6666 12.1336 14.6666 12.8467 14.3033C13.4739 13.9838 13.9838 13.4738 14.3034 12.8466C14.6667 12.1336 14.6667 11.2002 14.6667 9.33332V6.66665C14.6667 4.7998 14.6667 3.86638 14.3034 3.15334C13.9838 2.52614 13.4739 2.0162 12.8467 1.69662C12.1336 1.33331 11.2002 1.33331 9.33338 1.33331H6.66671C4.79987 1.33331 3.86644 1.33331 3.15341 1.69662C2.5262 2.0162 2.01626 2.52614 1.69669 3.15334C1.33337 3.86638 1.33337 4.7998 1.33337 6.66664V9.33331C1.33337 11.2002 1.33337 12.1336 1.69669 12.8466C2.01626 13.4738 2.5262 13.9838 3.15341 14.3033C3.86644 14.6666 4.79986 14.6666 6.6667 14.6666Z" stroke="#63666E" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></div>
+        </div>
+      </div>
+      <div class="card-body" data-v-683929d4="">
+        <ul class="list-group list-group-flush" data-v-683929d4="">
+          <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+            <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Stop 1</small></p>
+          </li>
+          <li class="list-group-item list-group-item-action py-3 text-primary fw-medium" role="button" data-v-683929d4="">
+            <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Stop 2</small></p>
+          </li>
+          <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+            <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Stop 3</small></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="bus-lines__times scrollable" data-v-735326f2="">
+    <div class="card border-0 h-100" data-v-683929d4="" data-v-735326f2="">
+      <div class="card-header" data-v-683929d4="">
+        <div class="p-3 px-2" data-v-683929d4="">
+          <!-- Card header -->
+          <div class="title mb-4 semibold" data-v-735326f2="">Bus Stop: Stop 2</div>
+          <div class="subtitle semibold pt-2" data-v-735326f2=""> Time </div>
+        </div>
+      </div>
+      <div class="card-body" data-v-683929d4="">
+        <ul class="list-group list-group-flush" data-v-683929d4="">
+          <li class="list-group-item list-group-item-action py-3" role="" data-v-683929d4="">
+            <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">10:00 AM</small></p>
+          </li>
+          <li class="list-group-item list-group-item-action py-3" role="" data-v-683929d4="">
+            <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">10:30 AM</small></p>
+          </li>
+          <li class="list-group-item list-group-item-action py-3" role="" data-v-683929d4="">
+            <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">11:00 AM</small></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>"
+`;
+
+exports[`BusLines View Snapshot Tests > matches the snapshot when a line is selected but no station 1`] = `
+"<section class="bus-lines" data-v-735326f2="">
+  <div class="card border-0 p-2 front-inter bus-lines__selector" data-v-4b1ccc45="" data-v-735326f2="">
+    <div class="card-body" data-v-4b1ccc45="">
+      <p class="card-title mb-1 semibold" data-v-4b1ccc45=""> Select Bus Line </p>
+      <div class="d-flex flex-wrap gap-2 pt-4" data-v-4b1ccc45=""></div>
+    </div>
+  </div>
+  <div class="bus-lines__stations scrollable" data-v-735326f2="">
+    <div class="card border-0 h-100" data-v-683929d4="" data-v-735326f2="">
+      <div class="card-header" data-v-683929d4="">
+        <div class="p-3 px-2" data-v-683929d4="">
+          <!-- Card header -->
+          <div class="title mb-4 semibold" data-v-735326f2=""> Bus Line: Line A</div>
+          <div class="subtitle semibold pt-2" data-v-735326f2=""><span data-v-735326f2="">Bus Stops</span>&nbsp; <span role="button" data-v-735326f2=""><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);" data-v-735326f2=""><path d="M10.6668 8.66665L8.00004 11.3333M8.00004 11.3333L5.33337 8.66665M8.00004 11.3333L8.00004 4.66665M6.6667 14.6666H9.33337C11.2002 14.6666 12.1336 14.6666 12.8467 14.3033C13.4739 13.9838 13.9838 13.4738 14.3034 12.8466C14.6667 12.1336 14.6667 11.2002 14.6667 9.33332V6.66665C14.6667 4.7998 14.6667 3.86638 14.3034 3.15334C13.9838 2.52614 13.4739 2.0162 12.8467 1.69662C12.1336 1.33331 11.2002 1.33331 9.33338 1.33331H6.66671C4.79987 1.33331 3.86644 1.33331 3.15341 1.69662C2.5262 2.0162 2.01626 2.52614 1.69669 3.15334C1.33337 3.86638 1.33337 4.7998 1.33337 6.66664V9.33331C1.33337 11.2002 1.33337 12.1336 1.69669 12.8466C2.01626 13.4738 2.5262 13.9838 3.15341 14.3033C3.86644 14.6666 4.79986 14.6666 6.6667 14.6666Z" stroke="#63666E" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></div>
+        </div>
+      </div>
+      <div class="card-body" data-v-683929d4="">
+        <ul class="list-group list-group-flush" data-v-683929d4="">
+          <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+            <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Stop 1</small></p>
+          </li>
+          <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+            <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Stop 2</small></p>
+          </li>
+          <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+            <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Stop 3</small></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="bus-lines__times scrollable" data-v-735326f2="">
+    <div class="card h-100 dashed" data-v-5d0701c5="" data-v-735326f2="">
+      <div class="card-body d-flex align-items-center justify-content-center text-muted" data-v-5d0701c5="">Please select the bus stop first</div>
+    </div>
+  </div>
+</section>"
+`;
+
+exports[`BusLines View Snapshot Tests > matches the snapshot when no line is selected 1`] = `
+"<section class="bus-lines" data-v-735326f2="">
+  <div class="card border-0 p-2 front-inter bus-lines__selector" data-v-4b1ccc45="" data-v-735326f2="">
+    <div class="card-body" data-v-4b1ccc45="">
+      <p class="card-title mb-1 semibold" data-v-4b1ccc45=""> Select Bus Line </p>
+      <div class="d-flex flex-wrap gap-2 pt-4" data-v-4b1ccc45=""></div>
+    </div>
+  </div>
+  <div class="bus-lines__stations scrollable" data-v-735326f2="">
+    <div class="card h-100 dashed" data-v-5d0701c5="" data-v-735326f2="">
+      <div class="card-body d-flex align-items-center justify-content-center text-muted" data-v-5d0701c5="">Please select the bus line first</div>
+    </div>
+  </div>
+  <div class="bus-lines__times scrollable" data-v-735326f2="">
+    <div class="card h-100 dashed" data-v-5d0701c5="" data-v-735326f2="">
+      <div class="card-body d-flex align-items-center justify-content-center text-muted" data-v-5d0701c5="">Please select the bus line first</div>
+    </div>
+  </div>
+</section>"
+`;

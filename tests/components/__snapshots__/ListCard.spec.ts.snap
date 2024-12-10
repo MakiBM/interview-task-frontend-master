@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ListCard Snapshot Tests > matches the snapshot with a selected item 1`] = `
+"<div class="card border-0 h-100" data-v-683929d4="">
+  <div class="card-header" data-v-683929d4="">
+    <div class="p-3 px-2" data-v-683929d4="">
+      <!-- Card header -->
+      <h5>Card Header</h5>
+    </div>
+  </div>
+  <div class="card-body" data-v-683929d4="">
+    <ul class="list-group list-group-flush" data-v-683929d4="">
+      <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+        <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Item 1</small></p>
+      </li>
+      <li class="list-group-item list-group-item-action py-3 text-primary fw-medium" role="button" data-v-683929d4="">
+        <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Item 2</small></p>
+      </li>
+      <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+        <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Item 3</small></p>
+      </li>
+    </ul>
+  </div>
+</div>"
+`;
+
+exports[`ListCard Snapshot Tests > matches the snapshot without a selected item 1`] = `
+"<div class="card border-0 h-100" data-v-683929d4="">
+  <div class="card-header" data-v-683929d4="">
+    <div class="p-3 px-2" data-v-683929d4="">
+      <!-- Card header -->
+      <h5>Card Header</h5>
+    </div>
+  </div>
+  <div class="card-body" data-v-683929d4="">
+    <ul class="list-group list-group-flush" data-v-683929d4="">
+      <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+        <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Item 1</small></p>
+      </li>
+      <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+        <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Item 2</small></p>
+      </li>
+      <li class="list-group-item list-group-item-action py-3" role="button" data-v-683929d4="">
+        <p class="px-2 mb-0" data-v-683929d4=""><small data-v-683929d4="">Item 3</small></p>
+      </li>
+    </ul>
+  </div>
+</div>"
+`;

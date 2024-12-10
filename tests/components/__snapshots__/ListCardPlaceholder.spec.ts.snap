@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ListCardPlaceholder Snapshot Tests > matches the snapshot 1`] = `
+"<div class="card h-100 dashed" data-v-5d0701c5="">
+  <div class="card-body d-flex align-items-center justify-content-center text-muted" data-v-5d0701c5="">Placeholder Title</div>
+</div>"
+`;

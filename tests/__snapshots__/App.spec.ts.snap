@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App Snapshot Tests with Conditional Rendering > matches the snapshot when isError is true 1`] = `
+"<div class="bg-light-blue min-vh-100 font-inter" data-v-7a7a37b1="">
+  <div class="container" data-v-7a7a37b1="">
+    <div class="header" data-v-7a7a37b1="">
+      <h1 class="h4 semibold m-0" data-v-7a7a37b1="">Timetable</h1>
+    </div>
+    <div class="card border-0 mb-3 px-2 font-inter" data-v-e4f7cc59="" data-v-7a7a37b1="">
+      <nav class="card-body navbar navbar-expand navbar-light" data-v-e4f7cc59="">
+        <div class="navbar-nav" data-v-e4f7cc59=""><a href="/" class="nav-link position-relative" data-v-e4f7cc59="">Bus Lines</a><a href="/stops" class="nav-link position-relative" data-v-e4f7cc59="">Stops</a></div>
+      </nav>
+    </div>
+    <div class="alert alert-danger" role="alert" data-v-7a7a37b1=""> Error while fetching data </div>
+  </div>
+</div>"
+`;
+
+exports[`App Snapshot Tests with Conditional Rendering > matches the snapshot when isLoading is true 1`] = `
+"<div class="bg-light-blue min-vh-100 font-inter" data-v-7a7a37b1="">
+  <div class="container" data-v-7a7a37b1="">
+    <div class="header" data-v-7a7a37b1="">
+      <h1 class="h4 semibold m-0" data-v-7a7a37b1="">Timetable</h1>
+    </div>
+    <div class="card border-0 mb-3 px-2 font-inter" data-v-e4f7cc59="" data-v-7a7a37b1="">
+      <nav class="card-body navbar navbar-expand navbar-light" data-v-e4f7cc59="">
+        <div class="navbar-nav" data-v-e4f7cc59=""><a href="/" class="nav-link position-relative" data-v-e4f7cc59="">Bus Lines</a><a href="/stops" class="nav-link position-relative" data-v-e4f7cc59="">Stops</a></div>
+      </nav>
+    </div>
+    <div class="alert alert-primary" role="status" data-v-7a7a37b1=""> Loading... </div>
+  </div>
+</div>"
+`;
+
+exports[`App Snapshot Tests with Conditional Rendering > matches the snapshot when neither isLoading nor isError is true 1`] = `
+"<div class="bg-light-blue min-vh-100 font-inter" data-v-7a7a37b1="">
+  <div class="container" data-v-7a7a37b1="">
+    <div class="header" data-v-7a7a37b1="">
+      <h1 class="h4 semibold m-0" data-v-7a7a37b1="">Timetable</h1>
+    </div>
+    <div class="card border-0 mb-3 px-2 font-inter" data-v-e4f7cc59="" data-v-7a7a37b1="">
+      <nav class="card-body navbar navbar-expand navbar-light" data-v-e4f7cc59="">
+        <div class="navbar-nav" data-v-e4f7cc59=""><a aria-current="page" href="/" class="router-link-active router-link-exact-active nav-link position-relative" data-v-e4f7cc59="">Bus Lines</a><a href="/stops" class="nav-link position-relative" data-v-e4f7cc59="">Stops</a></div>
+      </nav>
+    </div>
+    <div data-v-7a7a37b1="">Home</div>
+  </div>
+</div>"
+`;

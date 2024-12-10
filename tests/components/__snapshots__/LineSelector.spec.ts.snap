@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LineSelector Component Snapshots > matches the snapshot with a selected line 1`] = `
+"<div class="card border-0 p-2 front-inter" data-v-4b1ccc45="">
+  <div class="card-body" data-v-4b1ccc45="">
+    <p class="card-title mb-1 semibold" data-v-4b1ccc45=""> Select Bus Line </p>
+    <div class="d-flex flex-wrap gap-2 pt-4" data-v-4b1ccc45=""><button class="btn btn-primary" style="background: rgb(41, 63, 108);" data-v-4b1ccc45="">A</button><button class="btn btn-primary" style="" data-v-4b1ccc45="">B</button><button class="btn btn-primary" style="" data-v-4b1ccc45="">C</button></div>
+  </div>
+</div>"
+`;
+
+exports[`LineSelector Component Snapshots > matches the snapshot with no selected line 1`] = `
+"<div class="card border-0 p-2 front-inter" data-v-4b1ccc45="">
+  <div class="card-body" data-v-4b1ccc45="">
+    <p class="card-title mb-1 semibold" data-v-4b1ccc45=""> Select Bus Line </p>
+    <div class="d-flex flex-wrap gap-2 pt-4" data-v-4b1ccc45=""><button class="btn btn-primary" style="" data-v-4b1ccc45="">A</button><button class="btn btn-primary" style="" data-v-4b1ccc45="">B</button><button class="btn btn-primary" style="" data-v-4b1ccc45="">C</button></div>
+  </div>
+</div>"
+`;

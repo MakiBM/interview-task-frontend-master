@@ -1,0 +1,6 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FormInput Snapshot Tests > matches the snapshot 1`] = `
+"<div class="form-input" for="Test Placeholder" title="Test Placeholder" data-v-28dbba01=""><input class="form-input__input" type="text" placeholder="Test Label" id="Test Placeholder" data-v-28dbba01=""><!-- Use for icon -->
+</div>"
+`;
